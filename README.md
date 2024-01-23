@@ -51,7 +51,7 @@
 - **GKerLove-front**：本项目为系统的前端项目。前端开发采用Vite+Vue3+TypeScript，利用Vue Router实现路由，使用Pinia进行状态管理，搭配Vant 4组件库。
 - **GKerLove-back**：本项目为系统的后端项目。后端开发采用Java17和SpringBoot3.0，配置管理中心使用Nacos。
 - **GKerLove-chat**：本项目为系统的聊天服务器项目。私信功能需保持客户端与服务器长连接，采用基于WebSocket的Socket.IO框架，采用事件驱动模型，以确保消息到达的顺序和可靠传递。后端采用Node.js编写。
-- **GKerLove-agent**：xxxxxxxxxxxxxxxxxxxxxx
+- **GKerLove-agent**：本项目为系统的聊天代理人项目。使用Python编写，连接系统的聊天服务器。设计各种prompt，指导模型按照特定人格进行回复。
 
 ## 具体设计
 
@@ -80,6 +80,23 @@
 
 ## 特色功能介绍
 
+### 闪图功能
+
+为了方便交换图片，实现了闪图功能，对方点击查看闪图，过一段时间，图片会自动销毁。
+
+![](pictures/disappearingImage.gif)
+
+### 匿名匹配功能
+
+为了方便匿名聊天，开发了匿名匹配功能，双方可以在不知道对方是谁的情况下开启聊天。聊天过程中可以请求查看对方资料。任意一方可以随时销毁匿名聊天会话。
+
+![](pictures/match.gif)
+
+### 匿名动态与匿名评论
+
+用户为了保护隐私，可以选择发布匿名动态或者匿名评论。
+
+![](pictures/anonymous_post.png)
 
 
 ## 难点与解决方案
