@@ -1,5 +1,15 @@
 # 果壳之恋
 
+## 项目组成
+
+由以下项目组成：
+
+- 文档：[GKerLove-index](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-index)
+- 前端：[GKerLove-front](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-front)
+- 后端：[GKerLove-back](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-back)
+- 聊天服务器：[GKerLove-chat](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-chat)
+- 聊天代理人：[GKerLove-agent](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-agent)
+
 ## 项目背景及目标
 
 目前，国科大学子在恋爱及社交中面临着很多问题。
