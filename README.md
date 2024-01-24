@@ -2,7 +2,7 @@
 
 ## 项目组成
 
-由以下项目组成：
+由以下项目组成，各个项目的启动和配置方式请见对应仓库：
 
 - 文档：[GKerLove-index](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-index)
 - 前端：[GKerLove-front](https://github.com/Advanced-Software-Engineering-Team-2/GKerLove-front)
